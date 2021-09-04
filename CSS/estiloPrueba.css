@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+/*PARA EL ICONO DEL MENÚ*/
+.hamburguesa{
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.menu-navegacion{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform .3s ease-in-out;
+    transform: translate(110%);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.spread{
+    transform: translate(0);
+}
+
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*PARA EL LOGO*/
+#ContenedorLogo{
+    background-color: rgb(34,61,138);
+    padding-bottom: 0.1px;
+}
+
+.logo-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.logo-nombre{
+    width: 88%;
+    margin-top: 50px;
+    color:#fff;
+}
+
+.brand-nombre{
+    font-weight: 40;
+    font-size: 20px;
+}
+
+.logo-espacio{
+    width: 12%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-icon{
+    display: inline-block;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+img#logoHome{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 0;
+}
+
+.line-logo{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+/*PARA LA FOTO DE PORTADA*/
+div#portada{
+    padding: 10px;
+    text-align: center; 
+}
+
+img#portada{
+    width: 90%;
+    height: 150%;
+}
+
+/*PARA EL FONDO DE LA PORTADA*/
+div#espacio-portada{
+    background-color: rgba(144, 183, 255, 0.998);
+}
+
+/*PARA EL TEXTO PRINCIPAL*/
+#texto1{
+    margin-left: 90px;
+    margin-right: 75px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 35px;
+}
+
+/*NOMBRE*/
+div#nombre{
+    color:black;
+    margin: 0;
+    margin-top: 60px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/*PARA EL MAIN*/
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: rgb(34,61,138);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+section.AcercaDeMi{
+    background: #fff;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: rgb(34,61,138);
+    padding-top: 50px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section#formacion{
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    float: left;
+}
+
+section#proyectos{   
+    margin-top: 7%;
+    text-align: center;
+    padding: 5px;
+}
+
+section#certificados{
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    margin-top: 22px;
+}
+
+section#habilidad{
+    text-align: center;
+    padding: 5px;
+    margin-top: 22px;
+}
+
+div#lineaAcerca{
+    padding: 3%;
+    text-align: center;
+}
+
+/*FOOTERE*/
+footer{
+    background: rgb(34,61,138);
+    padding-bottom: 0.1px;
+    text-align: center;
+}
+
+.footer-content{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+div.datos{
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+.brand-versiculo{
+    
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+}
+
+.line-footer{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 8px;
+}
+
+.enlacefooter{
+    color: #fff;
+}
+
+.copyright{
+    width: 30%;
+    margin-bottom: 8px;
+    color:#fff;
+}
+
+a.enlacefootercopy{
+    color: white;
+    text-decoration: none;
+}
